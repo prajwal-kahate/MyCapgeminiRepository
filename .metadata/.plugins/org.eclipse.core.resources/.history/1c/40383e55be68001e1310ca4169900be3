@@ -1,0 +1,9 @@
+package com.figureArea;
+
+public class Tringle {
+
+	public Tringle() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

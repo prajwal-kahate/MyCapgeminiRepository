@@ -1,0 +1,11 @@
+package com.employeeSalary;
+
+public class Test {
+
+	public static void main(String[] args) {
+		PermanentEmployee permentEmployee = new PermanentEmployee(111, "Harsh", 15000.00, "Analyst", 30.0);
+		System.out.println(permentEmployee.calculateSalaryHike());
+
+	}
+
+}

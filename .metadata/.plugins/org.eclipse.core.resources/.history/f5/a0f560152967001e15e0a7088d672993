@@ -1,0 +1,12 @@
+package com.cg2;
+
+public class Test {
+
+	public static void main(String[] args) {
+		ArrayDemo arraydemo = new ArrayDemo();
+		int[] ar = {2,3,4,5};
+		arraydemo.printArray(ar);
+
+	}
+
+}

@@ -1,0 +1,10 @@
+class TemporaryEmployee extends Employee {
+	private Float servicePeriod;
+
+  	public void calculateSalaryHike() {
+
+                        }
+
+ 
+
+}

@@ -1,0 +1,17 @@
+package com.cg2;
+
+public class ArrayDemo {
+	// public void printArray(int []);
+		// public void printArray(char []);
+		// public void printArray(double []);
+		// public void printArray(String []);
+	
+	public void printArray(int[] arr)
+	{
+		for (int a:arr) {
+			System.out.print(a+" ");
+		}
+		System.out.println();
+	}
+
+}

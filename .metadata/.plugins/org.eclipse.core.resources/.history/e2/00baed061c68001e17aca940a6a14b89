@@ -1,0 +1,10 @@
+package com.employeeSalary;
+
+class TemporaryEmployee extends Employee {
+	private double servicePeriod;
+
+	public void calculateSalaryHike() {
+
+	}
+
+}

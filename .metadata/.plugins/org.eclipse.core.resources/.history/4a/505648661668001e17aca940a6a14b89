@@ -1,0 +1,10 @@
+class PermanentEmployee extends Employee {
+	private String designation;
+	private Integer hikePercent;
+  	public void calculateSalaryHike() {
+
+                        }
+
+ 
+
+}

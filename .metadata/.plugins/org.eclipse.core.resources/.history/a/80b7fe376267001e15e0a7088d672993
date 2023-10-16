@@ -1,0 +1,11 @@
+package com.Food;
+public class Food {
+	private int fid;
+	private String fname;
+	private String cusine;
+	private String type;
+	private int price;
+	
+	
+
+}

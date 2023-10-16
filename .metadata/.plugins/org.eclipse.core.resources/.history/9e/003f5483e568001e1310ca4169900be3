@@ -1,0 +1,24 @@
+package com.generalBank;
+
+public class Test {
+
+	public static void main(String[] args) {
+		ICICIBank icicibank = new ICICIBank();
+		icicibank.getSavingInterestRate();
+		icicibank.getFixedInterestRate();
+		
+		KotMBank kotmbank = new KotMBank();
+		kotmbank.getSavingInterestRate();
+		kotmbank.getFixedInterestRate();
+		
+		GeneralBank genralbank1 = new ICICIBank();
+		genralbank1.getSavingInterestRate();
+		genralbank1.getFixedInterestRate();
+		
+		GeneralBank genralbank2 = new KotMBank();
+		genralbank2.getSavingInterestRate();
+		genralbank2.getFixedInterestRate();
+
+	}
+
+}

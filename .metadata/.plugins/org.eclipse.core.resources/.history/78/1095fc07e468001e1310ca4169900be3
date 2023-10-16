@@ -1,0 +1,16 @@
+package com.generalBank;
+
+public class ICICIBank extends GeneralBank{
+
+
+	@Override
+	public void getSavingInterestRate(){
+		System.out.println("Savings 4%");
+	}
+	
+	@Override
+	public void getFixedInterestRate(){
+		System.out.println("Fixed 8.5%");
+	}
+	
+}

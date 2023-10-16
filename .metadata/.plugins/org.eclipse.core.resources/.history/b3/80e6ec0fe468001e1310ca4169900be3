@@ -1,0 +1,18 @@
+package com.generalBank;
+
+public class KotMBank extends GeneralBank{
+	
+
+	@Override
+	public void getSavingInterestRate(){
+		System.out.println("Savings 6%");
+	}
+	
+	@Override
+	public void getFixedInterestRate(){
+		System.out.println("Fixed 9%");
+	}
+
+	
+
+}

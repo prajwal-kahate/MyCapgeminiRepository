@@ -1,0 +1,18 @@
+package com.instruments;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		Instrument instrumentArray1 = new Piano();
+		instrumentArray1.play();
+		
+		Instrument instrumentArray2 = new Flute();
+		instrumentArray2.play();
+		
+		Instrument instrumentArray3 = new Guitar();
+		instrumentArray3.play();
+
+	}
+
+}

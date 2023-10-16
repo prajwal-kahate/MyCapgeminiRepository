@@ -1,0 +1,5 @@
+package com.generalBank;
+
+public abstract class GeneralBank {
+
+}

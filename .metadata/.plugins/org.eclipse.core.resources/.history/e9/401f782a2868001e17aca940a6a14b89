@@ -1,0 +1,63 @@
+package com.employeeSalary;
+
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		//PermanentEmployee permentEmployee1 =new PermanentEmployee(int employeeId, String employeeName, double baseSalary, String designation,
+				//double hikePercent) {
+			
+		//}
+		
+		System.out.println("Are you Permanent Employee or Temporary Employee \n If Permanent write 1 and If Temporary write 2: ");
+		int num = sc.nextInt();
+	
+		if (num==1) {
+			System.out.println("Enter Employee ID: ");
+			int employeeId = sc.nextInt();
+			
+			System.out.println("Enter Employee Name: ");
+			String employeeName = sc.next();
+			
+			System.out.println("Enter Employee Base Salary: ");
+			double baseSalary = sc.nextDouble();
+			
+			System.out.println("Enter Employee Designation: ");
+			String designation = sc.next();
+			
+			System.out.println("Enter Employee HikePercent: ");
+			double hikePercent = sc.nextDouble();
+			
+			PermanentEmployee permentEmployee = new PermanentEmployee(employeeId, employeeName, baseSalary, designation, hikePercent);
+			System.out.println(permentEmployee.calculateSalaryHike());
+			
+		} else if(num==2){
+			//)
+			System.out.println("Enter Employee ID: ");
+			int employeeId = sc.nextInt();
+			
+			System.out.println("Enter Employee Name: ");
+			String employeeName = sc.next();
+			
+			System.out.println("Enter Employee Base Salary: ");
+			double baseSalary = sc.nextDouble();
+			
+			System.out.println("Enter Employee Service Period: ");
+			double servicePeriod = sc.nextDouble();
+			
+			TemporaryEmployee temporaryEmployee = new TemporaryEmployee(employeeId, employeeName, baseSalary, servicePeriod);
+			System.out.println(temporaryEmployee.calculateSalaryHike());
+			
+
+		}
+		
+	
+		
+		
+
+	}
+	
+
+}

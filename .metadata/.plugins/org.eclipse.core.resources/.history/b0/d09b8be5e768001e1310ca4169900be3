@@ -1,0 +1,11 @@
+package com.instruments;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Instrument instrumentArray1 = new Piano();
+		instrumentArray1.play();
+
+	}
+
+}

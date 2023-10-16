@@ -1,0 +1,14 @@
+package com.Lab5.ExceptionHandling;
+
+public class Test {
+
+	public static void main(String[] args) throws UnderAgeException {
+		Person person = new Person("Harsh", 17);
+		if(person.getAge()<15) {
+			throw new UnderAgeException("Age of a person should be above 15");
+		}
+		System.out.println(person);
+
+	}
+
+}

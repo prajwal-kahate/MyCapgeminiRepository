@@ -1,0 +1,11 @@
+package com.employeeSalary;
+
+class PermanentEmployee extends Employee {
+	private String designation;
+	private int hikePercent;
+
+	public void calculateSalaryHike() {
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.playable;
+
+public interface Playable {
+
+}

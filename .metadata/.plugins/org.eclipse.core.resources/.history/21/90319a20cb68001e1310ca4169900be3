@@ -1,0 +1,13 @@
+package com.publicTransport;
+
+public class TaxiCab implements PublicTransport{
+	
+	
+
+	@Override
+	public double calculateFare(int d) {
+		double fare=RATE*d+MIN_AMOUNT;
+		return fare;
+	}
+
+}
