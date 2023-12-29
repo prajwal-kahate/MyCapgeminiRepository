@@ -8,8 +8,8 @@ public class Test {
 		System.out.println(person2);
 		
 		Person person1 = new Person("Harsh", 14);
-		System.out.println(person1);
-		person1.setAge(13);
+		System.out.println(person1); //harsh 14
+		person1.setAge(13); // harsh 13
 		*/
 		
 		Employee employee = new Employee("", "");

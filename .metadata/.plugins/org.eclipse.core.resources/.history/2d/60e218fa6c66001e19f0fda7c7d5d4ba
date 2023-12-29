@@ -1,7 +1,0 @@
-package com.cg1;
-
-public class Match 
-{
-	private String Country;
-	private String 
-}

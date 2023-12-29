@@ -1,8 +1,0 @@
-class Employee {
-	private Integer employeeId;
-	private String employeeName;
-	private Double baseSalary;
-
- 
-
-}

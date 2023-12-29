@@ -29,8 +29,8 @@ public class ExceptionHandling {
 		
 		try {
 			int num=num1/num2;
-			System.out.println(str.length());
-		} catch (Exception e) {
+			
+		} finally {
 			System.out.println("Sahise likho");
 		}
 	}
